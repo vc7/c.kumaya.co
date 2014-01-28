@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=0.8,user-scalable = no">
+<meta charset="utf-8">
+
+<link rel="canonical" href="http://c.kumaya.co"/>
+<link rel="apple-touch-icon-precomposed" href="touch-icon-iphone.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-ipad.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch-icon-ipad-retina.png" />
+<link rel="apple-touch-startup-image" href="startup.png">
+
+<title>&#25078;&#29066;&#28459;&#30059;&#38598;</title>
+<style>
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold");
+body
+{
+  font-family: 'PT Sans', cursive;
+  background: url("http://www.san-x.co.jp/rilakkuma/campaign/img/bg.gif");
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+}
+.block
+{
+  float:left;
+  text-align:center;
+  border:1px solid gray;
+  margin:5px;
+  border-radius:3px;
+  background: white;
+
+  -moz-transition: box-shadow .3s ease-out;
+  -webkit-transition: box-shadow .3s ease-out;
+  -o-transition: box-shadow .3s ease-out;
+  -ms-transition: box-shadow .3s ease-out;
+}
+.block:hover
+{
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+}
+.number
+{
+  background:tomato;  
+  border-radius:15px; 
+  padding:3px; 
+  width:80px;
+  position:relative; 
+  left:40%; 
+  height: 20px;
+  line-height: 20px;
+  color:white;
+  text-shadow: 0px 0px 3px rgba(0.78,0.235,0.192,0.5);
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.reload
+{
+  z-index: 600;
+  position: fixed;
+  display: block;
+  right: 6px;
+  top:6px;
+  padding: 3px 10px;
+  border: 1px solid #694405;
+  background:-webkit-linear-gradient(#9c670d 49%, #634108 51%);
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,0.8);
+
+  -webkit-transition: box-shadow .3s ease-out;
+  -webkit-transition: background .3s ease-out;
+}
+.reload:hover
+{
+  box-shadow: inset 0px 2px 2px rgba(0,0,0,0.8);
+  background:-webkit-linear-gradient(#86590b 49%, #553600 51%);
+}
+
+.title{
+  height: 49px;
+  line-height: 49px;
+  text-align: center;
+  font-size: 22px;
+  width: 100%;
+  position: fixed;
+  display: block;
+  background:-webkit-linear-gradient(#c78311 49%, #a26806 51%);
+  color: white;
+  text-shadow:0px 0px 3px rgba(0,0,0,0.8); 
+  margin: 0px;
+  padding: 0px;
+  z-index: 500;
+  box-shadow: 0px 0px 3px rgba(0.78,0.235,0.192,0.9);
+  border-bottom: 1px solid #694405;
+}
+.content
+{
+  padding-top: 46px;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  body
+  {
+	width: 100%;
+  }
+
+  .block
+  {
+	float: none;	
+  }
+}
+</style>
+</head>
+<body>
+<div class="title" id ="title">
+  &#25078;&#29066;&#28459;&#30059;&#38598;
+  <div class="reload" id="reload" onclick="location.reload();">&#37325;&#26032;&#25972;&#29702;</div>	
+
+</div>
+
+<div class="content">
+  <div class="block" id="">
+	<img src="" style="margin-top:20px;"/>
+	<div style="position:relative; width:100%;font-size:12px; margin:15px 0px;text-align:center; ">
+	  <div class="number">
+		
+	  </div>
+	</div>
+  </div>
+</div>
+
+</body>
