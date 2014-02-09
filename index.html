@@ -20,7 +20,7 @@
 
 <!-- Google Authorship and Publisher Markup -->
 <link rel="author" href="https://plus.google.com/11775388512191604985/posts"/>
-<link rel="publisher" href=”https://plus.google.com/11775388512191604985"/>
+<link rel="publisher" href="https://plus.google.com/11775388512191604985"/>
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="懶熊漫畫">
@@ -64,15 +64,23 @@
 <div class="reload" id="reload" onclick="location.reload();">重新整理</div>	
 </div>
 
-<div class="content">
-  <div class="block" id="">
-	<img src="" style="margin-top:20px;"/>
-	<div style="position:relative; width:100%;font-size:12px; margin:15px 0px;text-align:center; ">
-	  <div class="number">
-		
-	  </div>
+<div class="content" ng-controller="ComicController">
+	<div class="block" id="">
+		<img src="http://www.shufu.co.jp/contents/4kuma/images/{{nextEpisode}}.gif" style="margin-top:20px;"/>
+		<div style="position:relative; width:100%;font-size:12px; margin:15px 0px;text-align:center; ">
+			<div class="number">
+				{{nextEpisode}}
+			</div>
+		</div>
 	</div>
-  </div>
+	<div class="block" id="" ng-repeat="comic in comics">
+		<img src="comics/{{comic}}.gif" style="margin-top:20px;"/>
+		<div style="position:relative; width:100%;font-size:12px; margin:15px 0px;text-align:center; ">
+			<div class="number">
+				{{comic}}
+			</div>
+		</div>
+	</div>
 </div>
 
 </body>
