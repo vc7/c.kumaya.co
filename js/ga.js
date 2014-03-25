@@ -3,5 +3,5 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-40835053-4', 'c.kumaya.co');
+ga('create', 'UA-48833121-2', 'c.kumaya.co');
 ga('send', 'pageview');
