@@ -7,5 +7,5 @@ function ComicController($scope) {
 	console.log(comics);
 
 	$scope.comics = comics;
-	$scope.nextEpisode = 4616161616161;
+	$scope.nextEpisode = 461;
 }
