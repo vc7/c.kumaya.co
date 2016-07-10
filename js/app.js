@@ -1,6 +1,6 @@
 function ComicController($scope) {
 	var comics = [];
-	for(var i=652; i>=639; i--)
+	for(var i=660; i>=639; i--)
 	{
 		comics.push(i)
 	}
@@ -15,5 +15,5 @@ function ComicController($scope) {
 	console.log(comics);
 
 	$scope.comics = comics;
-	$scope.nextEpisode = 653;
+	$scope.nextEpisode = 661;
 }
